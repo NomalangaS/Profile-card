@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Palatino, serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #B2ABB3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  width: 390px;
+  background: #F2DEDF;
+  color: #754B61;
+  text-align: center;
+  border-radius: 22px;
+  padding: 28px 26px;
+  border: 1px solid #f3bbe3;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+.top-icons {
+  display: flex;
+  justify-content: space-between;
+  color: #B2ABB3;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.profile-img {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 4px solid #754B61;
+  margin: 0 auto 16px;
+  display: block;
+}
+
+h1 {
+  font-size: 30px;
+  color: #754B61;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 17px;
+  color: #754B61;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.line {
+  width: 80px;
+  height: 3px;
+  background: #754B61;
+  margin: 0 auto 20px;
+  border-radius: 20px;
+}
+
+.line span {
+  display: none;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #4C3949;
+  margin-bottom: 24px;
+}
+
+p span {
+  color: #754B61;
+  font-weight: 700;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 26px;
+  flex-wrap: wrap;
+}
+
+.skills div {
+  background: #EAE0DF;
+  border: 1px solid #4C3949;
+  color: #374151;
+  padding: 9px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skills i {
+  margin-right: 6px;
+}
+
+.html {
+  color: #e34f26;
+}
+
+.css {
+  color: #1572b6;
+}
+
+.js {
+  color: #f7df1e;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: #754B61;
+  color: WHITE;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button i {
+  margin-right: 8px;
+}
+
+button:hover {
+  background: #754B61;
+  transform: translateY(-2px);
+}
