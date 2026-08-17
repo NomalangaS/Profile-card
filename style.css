@@ -84,10 +84,10 @@ p span {
 
 .skills {
   display: flex;
-  justify-content: center;
+  justify-content:center;
   gap: 10px;
   margin-bottom: 26px;
-  flex-wrap: wrap;
+  
 }
 
 .skills div {
@@ -98,6 +98,7 @@ p span {
   border-radius: 999px;
   font-size: 14px;
   font-weight: 600;
+
 }
 
 .skills i {
